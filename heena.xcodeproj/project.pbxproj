@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77237201206BADA90037B756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77237200206BADA90037B756 /* AppDelegate.swift */; };
+		77237203206BADA90037B756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77237202206BADA90037B756 /* ViewController.swift */; };
+		77237206206BADA90037B756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77237204206BADA90037B756 /* Main.storyboard */; };
+		77237208206BADA90037B756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77237207206BADA90037B756 /* Assets.xcassets */; };
+		7723720B206BADA90037B756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77237209206BADA90037B756 /* LaunchScreen.storyboard */; };
+		77237213206BB3490037B756 /* pdf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77237212206BB3490037B756 /* pdf.swift */; };
+		7F9272F26F8A7493519E6086 /* Pods_heena.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E03FF94BECEE9C2DC17B89 /* Pods_heena.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15E03FF94BECEE9C2DC17B89 /* Pods_heena.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_heena.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0BE5972E11CAC4AC9FD2B4 /* Pods-heena.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heena.release.xcconfig"; path = "Pods/Target Support Files/Pods-heena/Pods-heena.release.xcconfig"; sourceTree = "<group>"; };
+		4FA070BFDA84C25220A1AAF9 /* Pods-heena.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-heena.debug.xcconfig"; path = "Pods/Target Support Files/Pods-heena/Pods-heena.debug.xcconfig"; sourceTree = "<group>"; };
+		772371FD206BADA90037B756 /* heena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = heena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77237200206BADA90037B756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		77237202206BADA90037B756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		77237205206BADA90037B756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77237207206BADA90037B756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7723720A206BADA90037B756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7723720C206BADA90037B756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77237212206BB3490037B756 /* pdf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pdf.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		772371FA206BADA90037B756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F9272F26F8A7493519E6086 /* Pods_heena.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EE7534AB344D679FA27F8BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E03FF94BECEE9C2DC17B89 /* Pods_heena.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		772371F4206BADA90037B756 = {
+			isa = PBXGroup;
+			children = (
+				77237212206BB3490037B756 /* pdf.swift */,
+				772371FF206BADA90037B756 /* heena */,
+				772371FE206BADA90037B756 /* Products */,
+				E1C2C8D2036E7D4C0B4F8FAE /* Pods */,
+				3EE7534AB344D679FA27F8BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		772371FE206BADA90037B756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				772371FD206BADA90037B756 /* heena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		772371FF206BADA90037B756 /* heena */ = {
+			isa = PBXGroup;
+			children = (
+				77237200206BADA90037B756 /* AppDelegate.swift */,
+				77237202206BADA90037B756 /* ViewController.swift */,
+				77237204206BADA90037B756 /* Main.storyboard */,
+				77237207206BADA90037B756 /* Assets.xcassets */,
+				77237209206BADA90037B756 /* LaunchScreen.storyboard */,
+				7723720C206BADA90037B756 /* Info.plist */,
+			);
+			path = heena;
+			sourceTree = "<group>";
+		};
+		E1C2C8D2036E7D4C0B4F8FAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FA070BFDA84C25220A1AAF9 /* Pods-heena.debug.xcconfig */,
+				1F0BE5972E11CAC4AC9FD2B4 /* Pods-heena.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		772371FC206BADA90037B756 /* heena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7723720F206BADA90037B756 /* Build configuration list for PBXNativeTarget "heena" */;
+			buildPhases = (
+				F5E6D102D51A07506796B60E /* [CP] Check Pods Manifest.lock */,
+				772371F9206BADA90037B756 /* Sources */,
+				772371FA206BADA90037B756 /* Frameworks */,
+				772371FB206BADA90037B756 /* Resources */,
+				C7986E7E99BBF6B8E08F8A54 /* [CP] Embed Pods Frameworks */,
+				6600C203C292708F9EAF0472 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = heena;
+			productName = heena;
+			productReference = 772371FD206BADA90037B756 /* heena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		772371F5206BADA90037B756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Appinventiv-PC";
+				TargetAttributes = {
+					772371FC206BADA90037B756 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 772371F8206BADA90037B756 /* Build configuration list for PBXProject "heena" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 772371F4206BADA90037B756;
+			productRefGroup = 772371FE206BADA90037B756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				772371FC206BADA90037B756 /* heena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		772371FB206BADA90037B756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7723720B206BADA90037B756 /* LaunchScreen.storyboard in Resources */,
+				77237208206BADA90037B756 /* Assets.xcassets in Resources */,
+				77237206206BADA90037B756 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6600C203C292708F9EAF0472 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heena/Pods-heena-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7986E7E99BBF6B8E08F8A54 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-heena/Pods-heena-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SimplePDF/SimplePDF.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SimplePDF.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-heena/Pods-heena-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5E6D102D51A07506796B60E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-heena-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		772371F9206BADA90037B756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77237203206BADA90037B756 /* ViewController.swift in Sources */,
+				77237201206BADA90037B756 /* AppDelegate.swift in Sources */,
+				77237213206BB3490037B756 /* pdf.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		77237204206BADA90037B756 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77237205206BADA90037B756 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77237209206BADA90037B756 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7723720A206BADA90037B756 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7723720D206BADA90037B756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7723720E206BADA90037B756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77237210206BADA90037B756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FA070BFDA84C25220A1AAF9 /* Pods-heena.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = heena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appinventiv.heena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77237211206BADA90037B756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F0BE5972E11CAC4AC9FD2B4 /* Pods-heena.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = heena/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appinventiv.heena;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		772371F8206BADA90037B756 /* Build configuration list for PBXProject "heena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7723720D206BADA90037B756 /* Debug */,
+				7723720E206BADA90037B756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7723720F206BADA90037B756 /* Build configuration list for PBXNativeTarget "heena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77237210206BADA90037B756 /* Debug */,
+				77237211206BADA90037B756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 772371F5206BADA90037B756 /* Project object */;
+}
